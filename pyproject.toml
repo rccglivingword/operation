@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "db operation"
+version = "0.1.0"
+description = "Interact with welfare db in mongo db"
+authors = ["pharmlovex <pharmifedayoojo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.0.1"
+pytest = "^7.3.0"
+pymongo = "^4.5.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
