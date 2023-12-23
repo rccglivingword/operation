@@ -15,7 +15,7 @@ db_name = 'member'
 collection_name = 'registers'
 
 # CSV file path
-csv_file = 'data.csv'  # Change this to your CSV file path
+csv_file = 'members_celebration_data.csv'  # Change this to your CSV file path
 
 # Connect to MongoDB
 client = MongoClient(uri, server_api=ServerApi('1'))
